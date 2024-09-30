@@ -1,4 +1,3 @@
-import React from 'react';
 import { Star, Paintbrush, Footprints, Workflow } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
 
