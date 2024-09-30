@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4ecdc4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffe66d;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#4ecdc4;stop-opacity:0.7" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="url(#grad1)"/>
+  
+  <!-- Lotus flower -->
+  <g transform="translate(100, 500) scale(0.5)">
+    <path d="M0,0 C50,-50 100,-50 150,0 C100,50 50,50 0,0 Z" fill="#FFC0CB" opacity="0.8">
+      <animate attributeName="d" values="M0,0 C50,-50 100,-50 150,0 C100,50 50,50 0,0 Z;M0,0 C50,-60 100,-60 150,0 C100,60 50,60 0,0 Z;M0,0 C50,-50 100,-50 150,0 C100,50 50,50 0,0 Z" dur="4s" repeatCount="indefinite" />
+    </path>
+    <path d="M0,0 C50,-50 100,-50 150,0 C100,50 50,50 0,0 Z" fill="#FFC0CB" opacity="0.8" transform="rotate(60)">
+      <animate attributeName="d" values="M0,0 C50,-50 100,-50 150,0 C100,50 50,50 0,0 Z;M0,0 C50,-60 100,-60 150,0 C100,60 50,60 0,0 Z;M0,0 C50,-50 100,-50 150,0 C100,50 50,50 0,0 Z" dur="4s" repeatCount="indefinite" />
+    </path>
+    <path d="M0,0 C50,-50 100,-50 150,0 C100,50 50,50 0,0 Z" fill="#FFC0CB" opacity="0.8" transform="rotate(120)">
+      <animate attributeName="d" values="M0,0 C50,-50 100,-50 150,0 C100,50 50,50 0,0 Z;M0,0 C50,-60 100,-60 150,0 C100,60 50,60 0,0 Z;M0,0 C50,-50 100,-50 150,0 C100,50 50,50 0,0 Z" dur="4s" repeatCount="indefinite" />
+    </path>
+    <circle cx="0" cy="0" r="20" fill="#FFD700"/>
+  </g>
+  
+  <!-- Om symbol
+  <path d="M800,100 C800,70 770,50 740,50 C710,50 680,70 680,100 C680,130 710,150 740,150 L740,200 C700,200 660,170 660,100 C660,30 700,0 740,0 C780,0 820,30 820,100 C820,150 790,180 760,190 C785,200 800,220 800,240 C800,270 780,290 740,290 C700,290 680,270 680,240 L710,240 C710,260 720,270 740,270 C760,270 770,260 770,240 C770,220 760,210 740,210 L740,190 C770,180 800,150 800,100 Z" fill="white" opacity="0.8">
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 10; 0 0" dur="4s" repeatCount="indefinite" />
+  </path> -->
+  
+  <!-- Meditation figure -->
+  <g transform="translate(900, 500) scale(0.2)">
+    <circle cx="0" cy="-50" r="50" fill="white" opacity="0.8"/>
+    <path d="M-50,0 Q0,50 50,0 Q75,25 100,0 L100,100 L-100,100 L-100,0 Q-75,25 -50,0 Z" fill="white" opacity="0.8"/>
+    <animateTransform attributeName="transform" type="translate" values="900 500; 900 490; 900 500" dur="4s" repeatCount="indefinite" />
+  </g>
+  
+  <!-- <text x="500" y="280" font-family="Arial, sans-serif" font-size="72" font-weight="bold" text-anchor="middle" fill="white">
+    AAROHAN
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite" />
+  </text> -->
+  
+  <!-- <text x="500" y="340" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="white">
+    Spiritual Youth Fest 2024
+  </text> -->
+</svg>
