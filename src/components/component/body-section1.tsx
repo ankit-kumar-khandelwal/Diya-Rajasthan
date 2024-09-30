@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import AAROHANImage from '../../assets/Aarohan Logo.png';
 import { Button } from "@/components/ui/button"
